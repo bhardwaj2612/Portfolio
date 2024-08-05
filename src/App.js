@@ -2,6 +2,7 @@ import React from 'react';
 // import './Header.css'
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Main from './component/Main';
+import Test from './pages/Teat';
 
 const App = () => {
 
@@ -9,6 +10,11 @@ const App = () => {
     {
       path: "/",
       element: <Main />,
+
+    },
+    {
+      path: "/test",
+      element: <Test />,
 
     },
   ])

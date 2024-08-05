@@ -14,7 +14,7 @@ const Footer = () => {
                     <p className="text-center"> raghav.bhardwaj@gmail.com | +91 9568339179</p>
                 </div>
                 <div className='col-12'>
-                    <a href='https://github.com/dashboard' rel="noreferrer" target='_blank'><img src={git} alt='Img' style={{ width: '3rem' }} /> </a>
+                    <a href='https://github.com/bhardwaj2612' rel="noreferrer" target='_blank'><img src={git} alt='Img' style={{ width: '3rem' }} /> </a>
                     <a href='https://linkedin.com/in/raghav-bhardwaj-aa5071224' rel="noreferrer" target='_blank'>
                         <img src={link} alt='Img' style={{ width: '3rem' }} className='m-3' /></a>
                 </div>

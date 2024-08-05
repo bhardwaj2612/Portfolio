@@ -13,7 +13,7 @@ const Tab = () => {
     console.log(activeTab)
 
     return (
-        <div className="tabs-container">
+        <div className="tabs-container container">
             <div className="bloc-tabs">
                 <div className={activeTab === 1 ? "tabs active-tabs" : "tabs"} onClick={() => toggelTab(1)}>Quiz Web</div>
                 <div className={activeTab === 2 ? "tabs active-tabs" : "tabs"} onClick={() => toggelTab(2)}>Personal Website
