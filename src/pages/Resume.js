@@ -7,12 +7,12 @@ const Resume = () => {
                 <h2>Resume</h2>
             </div>
             <div className="row">
-                <div className="col-12 d-flex justify-content-center m-3">
+                <div className="col-12 d-flex justify-content-center ">
                     <iframe className="pdf" src={resume} width="800" height="800" />
                 </div>
                 <div className="col-12 m-3 resume ">
                     <a href={resume} download="Raghav'sResume.pdf">
-                        <button type="button" className="btn btn-secondary btn-lg py-2">Downlord</button>
+                        <button type="button" className="btn btn-secondary btn-lg py-2 ">Downlord</button>
                     </a>
                 </div>
             </div>

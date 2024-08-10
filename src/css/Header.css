@@ -85,19 +85,11 @@
     left: 20px;
 }
 
-
-
-/* .contect {
-    margin-right: 30rem;
-} */
-
 .box {
     border: 0.5px solid #ccc;
     border-radius: 7px;
     outline: none;
     padding: 1rem;
-    /* margin: 1rem; */
-
 }
 
 .icons {
@@ -315,4 +307,15 @@
     .project-box .discription-img {
         width: 100%;
     }
+}
+
+@media screen and (max-width:750px) {
+    .box {
+        width: 10px;
+    }
+
+    .box h5 {
+        font-size: 10px;
+    }
+
 }

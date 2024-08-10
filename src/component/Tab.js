@@ -19,14 +19,14 @@ const Tab = () => {
                 <div className={activeTab === 2 ? "tabs active-tabs" : "tabs"} onClick={() => toggelTab(2)}>Personal Website
                 </div>
                 <div className={activeTab === 3 ? "tabs active-tabs" : "tabs"} onClick={() => toggelTab(3)}>Food Delivery</div>
-                <div className={activeTab === 4 ? "tabs active-tabs" : "tabs"} onClick={() => toggelTab(4)}>QR Generator</div>
+                <div className={activeTab === 4 ? "tabs active-tabs" : "tabs"} onClick={() => toggelTab(4)}>QR App</div>
             </div>
             <div className="content-tabs">
 
                 <div className={activeTab === 1 ? "content active-content" : "content"}  >
                     <h2>Quiz Web Application</h2>
                     <hr />
-                    <div className='container '>
+                    <div className='container'>
                         <div className='row project-box'>
                             <div className='col discription'>
                                 <ul>
@@ -51,16 +51,16 @@ const Tab = () => {
                     <h2>Personal Website</h2>
                     <hr />
                     <div className='container'>
-                        <div className='row'>
+                        <div className='row project-box'>
                             <div className='col discription'>
                                 <ul>
                                     <li>Utilized responsive design techniques to ensure optimal user experience across various devices</li>
-                                    <li>Website contain Education, Tools knows and updated Resume use different Packages.</li>
+                                    <li>Website co  ntain Education, Tools knows and updated Resume use different Packages.</li>
                                     <li>Technologies Used: React.Js, JavaScript, Bootstrap, Various Packages, HTML, CSS.</li>
                                 </ul>
                             </div>
                             <div className='col discription-img'>
-                                <img alt='Img' src={Home} />
+                                <img alt='img' src={Home} />
                             </div>
                         </div>
                     </div>
@@ -71,7 +71,7 @@ const Tab = () => {
                     <h2>Food Delivery Web Application</h2>
                     <hr />
                     <div className='container'>
-                        <div className='row'>
+                        <div className='row project-box'>
                             <div className='col discription'>
                                 <ul>
                                     <li>A food delivery web application designed to connect users with a variety of local restaurants.</li>
@@ -82,7 +82,7 @@ const Tab = () => {
                                 </ul>
                             </div>
                             <div className='col discription-img'>
-                                <img alt='Img' src={food} />
+                                <img alt='img' src={food} />
                             </div>
                         </div>
                     </div>
@@ -92,16 +92,16 @@ const Tab = () => {
                     <h2>QR Generator Web Application</h2>
                     <hr />
                     <div className='container'>
-                        <div className='row'>
-                            <div className='col discription-img'>
+                        <div className='row project-box'>
+                            <div className='col discription'>
                                 <ul>
                                     <li>This web application allows users to generate QR codes based on data provided to it.</li>
                                     <li>Conducted thorough testing and debugging to ensure the reliability and stability of the application.</li>
                                     <li> Technologies Used JavaScript, React js, JavaScript, Bootstrap, HTML, CSS</li>
                                 </ul>
                             </div>
-                            <div className='col discription'>
-                                <img alt='Img' src={qr} />
+                            <div className='col discription-img'>
+                                <img alt='img' src={qr} />
                             </div>
                         </div>
                     </div>
