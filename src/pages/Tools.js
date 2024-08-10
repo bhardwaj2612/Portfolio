@@ -12,19 +12,20 @@ const Tools = () => {
                 <div className="card-header">
                     <h2>Tools</h2>
                 </div>
-                <div className="row mt-3" >
+                <div className="row mt-2" >
                     <div className="col  box">
                         <FaReact className="icons" />
                         <h5 className=" mt-3">React</h5>
                     </div>
                     <div className="col box">
+                        <span className="icons" >Next</span>
                         <h5 className="mt-3">Next.Js</h5>
                     </div>
                     <div className="col box">
                         < IoLogoJavascript className="icons" />
                         <h5 className="mt-3">Javascript</h5>
                     </div>
-                    <div className="col box">
+                    <div className="col box box1">
                         <SiRedux className="icons" />
                         <h5 className="mt-3 ">Redux</h5>
                     </div>
@@ -36,14 +37,14 @@ const Tools = () => {
                         <h5 className=" mt-3">Node.js</h5>
                     </div>
                     <div className="col box">
-                        <h4 className="icons" > API </h4>
+                        <span className="icons" >API </span>
                         <h5 className=" mt-3">API</h5>
                     </div>
                     <div className="col box">
                         <SiExpress className="icons" />
                         <h5 className=" mt-3">Express.js</h5>
                     </div>
-                    <div className="col box">
+                    <div className="col box box1">
                         < FaCss3Alt className="icons" />
                         <h5 className=" mt-3">CSS</h5>
                     </div>
@@ -62,7 +63,7 @@ const Tools = () => {
                         <BsFiletypeSql className="icons" />
                         <h5 className=" mt-3">Sql</h5>
                     </div>
-                    <div className="col box">
+                    <div className="col box box1">
                         <SiMysql className="icons" />
                         <h5 className=" mt-3">MySql</h5>
                     </div>
@@ -81,7 +82,7 @@ const Tools = () => {
                         <TbBrandCpp className="icons" />
                         <h5 className=" mt-3">C++</h5>
                     </div>
-                    <div className="col box">
+                    <div className="col box box1">
                         <FaC className="icons" />
                         <h5 className=" mt-3">C Language </h5>
                     </div>

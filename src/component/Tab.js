@@ -10,7 +10,7 @@ const Tab = () => {
     const toggelTab = (count) => (
         setActiveTab(count)
     )
-    console.log(activeTab)
+    // console.log(activeTab)
 
     return (
         <div className="tabs-container container">
@@ -27,8 +27,8 @@ const Tab = () => {
                     <h2>Quiz Web Application</h2>
                     <hr />
                     <div className='container '>
-                        <div className='row'>
-                            <div className='col-6   '>
+                        <div className='row project-box'>
+                            <div className='col discription'>
                                 <ul>
                                     <li>The Quze app is a single-page web application built using React.js, featuring multiple interactive and
                                         user-friendly functionalities.</li>
@@ -39,8 +39,8 @@ const Tab = () => {
                                 </ul>
 
                             </div>
-                            <div className='col-6'>
-                                <img className="img-thumbnail" alt='Img' src={quiz} />
+                            <div className='col discription-img'>
+                                <img alt='img' src={quiz} />
 
                             </div>
                         </div>
@@ -52,15 +52,15 @@ const Tab = () => {
                     <hr />
                     <div className='container'>
                         <div className='row'>
-                            <div className='col-6'>
+                            <div className='col discription'>
                                 <ul>
                                     <li>Utilized responsive design techniques to ensure optimal user experience across various devices</li>
                                     <li>Website contain Education, Tools knows and updated Resume use different Packages.</li>
                                     <li>Technologies Used: React.Js, JavaScript, Bootstrap, Various Packages, HTML, CSS.</li>
                                 </ul>
                             </div>
-                            <div className='col-6'>
-                                <img className="img-thumbnail" alt='Img' src={Home} />
+                            <div className='col discription-img'>
+                                <img alt='Img' src={Home} />
                             </div>
                         </div>
                     </div>
@@ -72,7 +72,7 @@ const Tab = () => {
                     <hr />
                     <div className='container'>
                         <div className='row'>
-                            <div className='col-6'>
+                            <div className='col discription'>
                                 <ul>
                                     <li>A food delivery web application designed to connect users with a variety of local restaurants.</li>
                                     <li>User can Signin or register to get in the application.</li>
@@ -81,8 +81,8 @@ const Tab = () => {
                                     <li> Technologies Used: Next.JS, React, MongoDB, API, Various Packages, CSS, HTML</li>
                                 </ul>
                             </div>
-                            <div className='col-6'>
-                                <img className="img-thumbnail" alt='Img' src={food} />
+                            <div className='col discription-img'>
+                                <img alt='Img' src={food} />
                             </div>
                         </div>
                     </div>
@@ -93,15 +93,15 @@ const Tab = () => {
                     <hr />
                     <div className='container'>
                         <div className='row'>
-                            <div className='col-6'>
+                            <div className='col discription-img'>
                                 <ul>
                                     <li>This web application allows users to generate QR codes based on data provided to it.</li>
                                     <li>Conducted thorough testing and debugging to ensure the reliability and stability of the application.</li>
                                     <li> Technologies Used JavaScript, React js, JavaScript, Bootstrap, HTML, CSS</li>
                                 </ul>
                             </div>
-                            <div className='col-6'>
-                                <img className="img-thumbnail" alt='Img' src={qr} />
+                            <div className='col discription'>
+                                <img alt='Img' src={qr} />
                             </div>
                         </div>
                     </div>

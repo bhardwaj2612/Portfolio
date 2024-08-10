@@ -85,59 +85,24 @@
     left: 20px;
 }
 
-@media screen and (max-width:750px) {
-    .nav-wrapper {
-        width: 50%;
-        height: 25vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: right;
-        align-items: center;
-    }
 
-    .nav-wrapper .a {
-        position: none;
-        z-index: none;
-    }
 
-    .nav-wrapper .a:hover {
-        background: #ff3333;
-        color: #fff;
-    }
-
-    .nav-wrapper span {
-        display: none;
-    }
-
-    .span1 {
-        left: 10%;
-        top: 10%;
-    }
-
-    .scroll {
-        right: 50px;
-    }
-}
-
-.contect {
+/* .contect {
     margin-right: 30rem;
-}
+} */
 
 .box {
     border: 0.5px solid #ccc;
     border-radius: 7px;
     outline: none;
-    padding: 10px;
-    margin: 12px;
+    padding: 1rem;
+    /* margin: 1rem; */
+
 }
 
 .icons {
-    width: 40px;
-    height: 40px;
-}
-
-.box1 {
-    margin-bottom: 20px;
+    width: 2rem;
+    height: 2rem;
 }
 
 .box:hover {
@@ -195,7 +160,6 @@
 
 
 .tabs-container {
-    border: 1px solid rgb(0, 0, 0, 0.274);
     margin: 15px;
     min-height: 50vh;
     font-family: 'Poppins', sans-serif;
@@ -206,7 +170,7 @@
     width: 50%;
     text-align: center;
     padding: 10px;
-    font-size: 20px;
+    font-size: 1.5em;
 }
 
 .bloc-tabs {
@@ -223,7 +187,7 @@
     border-bottom: none;
     border-top: 5px solid #90bafc;
     color: #fff;
-    font-size: 20px;
+    font-size: 1.5rem;
     border-right: none;
 }
 
@@ -239,7 +203,7 @@
 }
 
 .active-content h2 {
-    font-size: 30px;
+    font-size: 2rem;
     color: #ffff76;
 }
 
@@ -268,12 +232,29 @@
 .content li {
     color: #fff;
     list-style-type: disclosure-closed;
+    font-size: 1rem;
 }
 
 .active-content {
     display: block;
 }
 
+
+.project-box .discription,
+.project-box .discription-img {
+    width: 50%;
+}
+
+.project-box .discription-img img {
+    width: 95%;
+    height: 36vh;
+}
+
+.tabs-container .project-box {
+    display: flex;
+    width: 100%;
+
+}
 
 .resume {
     height: 10vh;
@@ -286,6 +267,52 @@
     border-style: none;
 }
 
-main {
-    background: rgb(218, 233, 235);
+@media screen and (max-width:750px) {
+    .nav-wrapper {
+        width: 50%;
+        height: 25vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-wrapper .a {
+        position: none;
+        z-index: none;
+    }
+
+    .nav-wrapper .a:hover {
+        background: #ff3333;
+        color: #fff;
+    }
+
+    .nav-wrapper span {
+        display: none;
+    }
+
+    .span1 {
+        left: 10%;
+        top: 10%;
+    }
+
+    .scroll {
+        right: 50px;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .tabs {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .tabs-container .project-box {
+        flex-direction: column;
+    }
+
+    .project-box .discription,
+    .project-box .discription-img {
+        width: 100%;
+    }
 }
